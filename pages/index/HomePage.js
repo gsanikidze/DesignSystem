@@ -6,8 +6,9 @@ import { bindActionCreators } from 'redux'
 import { actionCreators } from 'ACTIONS'
 
 //components
-import Header from 'COMPONENTS/Header'
+import ContentContainer from 'COMPONENTS/ContentContainer'
 import Sidebar from 'COMPONENTS/Sidebar'
+import Headline from 'COMPONENTS/Headline'
 
 // styles
 import 'STYLES/main.scss'
@@ -21,7 +22,9 @@ const HomePage = () => {
     return (
         <div id="home_page">
             <Sidebar title='Design System' pages={navItems} />
-            <h3>Sample Redux Component</h3>
+            <ContentContainer>
+                <Headline>Headline Component</Headline>
+            </ContentContainer>
         </div>
     )
 }

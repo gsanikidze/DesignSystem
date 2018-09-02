@@ -7,6 +7,10 @@
     top: 0;
     background-color: $color_dark;
     color: $color_white;
+    a{
+        color: $color_white;
+        text-decoration: none;
+    }
     .title{
         display: flex;
         align-items: center;
@@ -16,15 +20,12 @@
         @include font_label;
     }
     nav{
+        font-weight: 200;
         ul{
             li{
                 padding: $spacing_px_small;
                 &:hover{
                     background-color: $color_light_dark;
-                }
-                a{
-                    color: $color_white;
-                    text-decoration: none;
                 }
             }
         }
