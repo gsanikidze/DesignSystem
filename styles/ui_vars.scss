@@ -1,0 +1,35 @@
+// colors
+$color_primary: #5d3cbf;
+$color_secondary: #ff0073;
+$color_dark: #161616;
+$color_light_dark: #232323;
+$color_white: white;
+
+// spacing
+$spacing_px_tiny: 8px;
+$spacing_px_small: 16px;
+$spacing_px_base: 24px;
+$spacing_px_large: 48px;
+$spacing_px_x_large: 64px;
+
+$spacing_pr_tiny: 8%;
+$spacing_pr_small: 16%;
+$spacing_pr_base: 24%;
+$spacing_pr_large: 48%;
+$spacing_pr_x_large: 64%;
+$spacing_pr_full: 100%;
+
+// typography
+$font_main_family: sans-serif;
+$font_p_size: $spacing_px_small;
+$font_h1_size: $spacing_px_large;
+@mixin font_label {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: $spacing_px_small;
+    color: $color_white;
+}
+
+
+
+// other

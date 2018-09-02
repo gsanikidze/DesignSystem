@@ -1,0 +1,24 @@
+{
+  "license": "MIT",
+  "author": {
+    "name": "Guram Sanikidze",
+    "email": "sanikidze.guram@gmail.com",
+    "url": "https://github.com/gsanikidze"
+  },
+  "dependencies": {
+    "@zeit/next-sass": "^0.2.0",
+    "next": "^6.1.1",
+    "node-sass": "^4.9.3",
+    "react": "^16.4.2",
+    "react-dom": "^16.4.2",
+    "react-redux": "^5.0.7",
+    "redux": "^4.0.0",
+    "redux-devtools-extension": "^2.13.2",
+    "redux-thunk": "^2.1.0"
+  },
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}

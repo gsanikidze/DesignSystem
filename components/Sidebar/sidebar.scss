@@ -1,0 +1,32 @@
+@import 'STYLES/ui_vars.scss';
+
+#sidebar{
+    position: fixed;
+    width: $spacing_pr_small;
+    height: $spacing_pr_full;
+    top: 0;
+    background-color: $color_dark;
+    color: $color_white;
+    .title{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: $spacing_px_large;
+        background-color: $color_primary;
+        @include font_label;
+    }
+    nav{
+        ul{
+            li{
+                padding: $spacing_px_small;
+                &:hover{
+                    background-color: $color_light_dark;
+                }
+                a{
+                    color: $color_white;
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}

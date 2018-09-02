@@ -1,0 +1,19 @@
+@import 'STYLES/ui_vars.scss';
+
+#header{
+    position: fixed;
+    width: $spacing_pr_full - $spacing_pr_small;
+    height: $spacing_px_large;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: $spacing_pr_small;
+    top: 0;
+    background-color: $color_primary;
+    font-family: $font_main_family;
+    color: $color_white;
+}
+
+.toggled{
+    background-color: $color_secondary !important;
+}

@@ -1,0 +1,13 @@
+@import 'STYLES/ui_vars.scss';
+
+body{
+    background-color: $color_white;
+    color: $color_dark;
+    font-family: $font_main_family;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: $font_main_family;
+    color: $color_white;
+    font-weight: bold;
+}
