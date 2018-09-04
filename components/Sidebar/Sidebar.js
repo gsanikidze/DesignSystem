@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from 'next/link'
 
 // styles
 import './sidebar.scss'
@@ -7,11 +6,11 @@ import './sidebar.scss'
 const Sidebar = ({ title, pages }) => {
     return (
         <section id="sidebar">
-            <div class="title"><Link href="/">{title}</Link></div>
+            <div className="title"><a href="/">{title}</a></div>
             <nav>
                 <ul>
                     {
-                        pages.map(({ name, url }, index) => <li key={index + name}><Link href={url}>{name}</Link></li>)
+                        pages.map(({ name, url }, index) => <li key={index + name}><a>{name}</a></li>)
                     }
                 </ul>
             </nav>

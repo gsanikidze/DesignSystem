@@ -1,6 +1,10 @@
 const routes = require('next-routes')
 
+routes.rn = {
+    home: 'home'
+}
+
 module.exports = routes()
     .add('index', '/')
-    .add('DefaultLayout', '/default-layout', 'DefaultLayout')
-    .add('DefaultLayoutWithComponent', '/default-layout/:component', 'DefaultLayout')
+    .add('DesignSystem', '/design-system', 'DesignSystem')
+    .add('DesignSystemWithComponent', '/design-system/:component', 'DesignSystem')
