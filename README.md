@@ -25,4 +25,3 @@ yarn start
 Build Version Will Be In `.next` Folder.
 
 \* You can use npm instead of yarn (just write npm instead yarn). \*
-```
