@@ -2,12 +2,12 @@
 
 body{
     background-color: $color_white;
-    color: $color_dark;
-    font-family: $font_main_family;
+    color: $color_black;
+    font-family: $font_primary;
 }
 
 h1, h2, h3, h4, h5, h6{
-    font-family: $font_main_family;
+    font-family: $font_primary;
     color: $color_white;
     font-weight: bold;
 }

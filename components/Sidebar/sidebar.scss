@@ -2,10 +2,10 @@
 
 #sidebar{
     position: fixed;
-    width: $spacing_pr_small;
-    height: $spacing_pr_full;
+    width: $unit_pr_small;
+    height: $unit_pr_full;
     top: 0;
-    background-color: $color_dark;
+    background-color: $color_black;
     color: $color_white;
     a{
         color: $color_white;
@@ -15,7 +15,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        height: $spacing_px_large;
+        height: $unit_px_large;
         background-color: $color_primary;
         @include font_label;
     }
@@ -23,9 +23,9 @@
         font-weight: 200;
         ul{
             li{
-                padding: $spacing_px_small;
+                padding: $unit_px_small;
                 &:hover{
-                    background-color: $color_light_dark;
+                    background-color: $color_dark;
                 }
             }
         }

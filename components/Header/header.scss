@@ -2,15 +2,15 @@
 
 #header{
     position: fixed;
-    width: $spacing_pr_full - $spacing_pr_small;
-    height: $spacing_px_large;
+    width: $unit_pr_full - $unit_pr_small;
+    height: $unit_px_large;
     display: flex;
     align-items: center;
     justify-content: center;
-    left: $spacing_pr_small;
+    left: $unit_pr_small;
     top: 0;
     background-color: $color_primary;
-    font-family: $font_main_family;
+    font-family: $font_primary;
     color: $color_white;
 }
 

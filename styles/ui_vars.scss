@@ -1,36 +1,53 @@
-// colors
-$color_primary: #5d3cbf;
-$color_secondary: #ff0073;
-$color_dark: #161616;
-$color_light_dark: #232323;
+// -------------------------------------------------> [COLORS] VVV
+$color_primary: #006eff;
+$color_secondary: #42cd95;
+$color_red: #f46363;
+$color_yellow: #fed570;
+$color_green: #33db87;
+$color_black: #161616;
+$color_dark: #232323;
+$color_gray: #ddecff;
 $color_white: white;
+// -------------------------------------------------< [COLORS] XXX
 
-// spacing
-$spacing_px_tiny: 8px;
-$spacing_px_small: 16px;
-$spacing_px_base: 24px;
-$spacing_px_large: 48px;
-$spacing_px_x_large: 64px;
-$spacing_px_xx_large: 120px;
+// -------------------------------------------------> [MEASUREMENT UNITS] VVV
+$unit_px_tiny: 8px;
+$unit_px_small: 16px;
+$unit_px_base: 24px;
+$unit_px_large: 48px;
+$unit_px_x_large: 64px;
+$unit_px_xx_large: 120px;
 
-$spacing_pr_tiny: 8%;
-$spacing_pr_small: 16%;
-$spacing_pr_base: 24%;
-$spacing_pr_large: 48%;
-$spacing_pr_x_large: 64%;
-$spacing_pr_full: 100%;
+$unit_pr_tiny: 8%;
+$unit_pr_small: 16%;
+$unit_pr_base: 24%;
+$unit_pr_large: 48%;
+$unit_pr_x_large: 64%;
+$unit_pr_full: 100%;
+// -------------------------------------------------< [MEASUREMENT UNITS] XXX
 
-// typography
-$font_main_family: sans-serif;
-$font_p_size: $spacing_px_small;
-$font_h1_size: $spacing_px_large;
+// -------------------------------------------------> [TYPOGRAPHY] VVV
+$font_primary: Open Sans, sans-serif;
+$font_secondary: "Times New Roman", Times, serif;
+
+$font_tiny: 12px;
+$font_small: 16px;
+$font_base: 24px;
+$font_large: 32px;
+$font_x_large: 40px;
+$font_xx_large: 48px;
+// -------------------------------------------------< [TYPOGRAPHY] XXX
+
+// -------------------------------------------------> [RADIUSES] VVV
+$radius_primary: 8px;
+$radius_secondary: 16px;
+// -------------------------------------------------< [RADIUSES] XXX
+
+
+// TODO: Needed Remove
 @mixin font_label {
     font-weight: bold;
     text-transform: uppercase;
-    font-size: $spacing_px_small;
+    font-size: $unit_px_small;
     color: $color_white;
 }
-
-
-
-// other
