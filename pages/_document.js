@@ -11,7 +11,7 @@ export default class MyDocument extends Document {
             <html>
                 <Head>
                     <link rel="stylesheet" href="/_next/static/style.css" />
-                    <title>Design System</title>
+                    <title>SYSTEMIZER</title>
                 </Head>
                 <body className="custom_class">
                     <Main />

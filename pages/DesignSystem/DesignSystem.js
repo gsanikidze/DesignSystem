@@ -17,7 +17,7 @@ export default class DefaultLayout extends Component {
     render() {
         return (
             <div id="design_system">
-                <Sidebar title='Design System' pages={navItems} />
+                <Sidebar title='Systemizer' pages={navItems} />
                 <ContentContainer>
                     <Headline>Headline Component</Headline>
                 </ContentContainer>

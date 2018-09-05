@@ -14,7 +14,7 @@ const HomePage = () => {
         <div id="home_page">
             Welcome To Design System.
             <br />
-            <Link route="DesignSystem"><a>Open System</a></Link>
+            Open <Link route="DesignSystem"><a>SYSTEMIZER</a></Link>
         </div>
     )
 }
