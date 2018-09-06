@@ -1,0 +1,19 @@
+@import 'STYLES/ui_vars.scss';
+
+.paragraph{
+    font-family: $font_primary;
+    font-size: $font_small;
+    font-weight: regular;
+    color: $color_70_gray;
+    line-height: $font_line_height;
+
+    &.large{
+        font-size: $font_base;   
+    }
+    &.tiny{
+        font-size: $font_tiny;
+    }
+    &.white{
+        color: $color_30_gray;
+    }
+}

@@ -2,13 +2,13 @@
 
 #sidebar{
     position: fixed;
-    width: $unit_pr_small;
+    width: $unit_pr_base;
     height: $unit_pr_full;
     top: 0;
-    background-color: $color_black;
-    color: $color_white;
+    background-color: $color_10_gray;
+    color: $color_80_gray;
     a{
-        color: $color_white;
+        color: $color_80_gray;
         text-decoration: none;
     }
     .title{
@@ -25,7 +25,7 @@
             li{
                 padding: $unit_px_small;
                 &:hover{
-                    background-color: $color_dark;
+                    background-color: $color_80_gray;
                 }
             }
         }

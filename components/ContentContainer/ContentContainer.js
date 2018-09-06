@@ -4,5 +4,11 @@ import React from 'react'
 import './content_container.scss'
 
 export default ({ children }) => {
-    return <div id="content_container"> {children}</div>
+    return (
+        <div id="content_container">
+            <div className="container">
+                {children}
+            </div>
+        </div>
+    )
 }

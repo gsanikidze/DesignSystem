@@ -1,7 +1,9 @@
 @import 'STYLES/ui_vars.scss';
 
 #content_container{
-    width: $unit_pr_full - $unit_pr_small;
-    margin-left: $unit_pr_small;
-    padding: $unit_px_large;
+    width: $unit_pr_full - $unit_pr_base;
+    margin-left: $unit_pr_base;
+    .container{
+        margin: $unit_px_large;
+    }
 }

@@ -1,0 +1,19 @@
+@import 'STYLES/ui_vars.scss';
+
+.title{
+    font-family: $font_primary;
+    font-weight: 900;
+    font-size: $font_large;
+    line-height: $font_line_height;
+    color: $color_80_gray;
+
+    &.large{
+        font-size: $font_x_large;   
+    }
+    &.tiny{
+        font-size: $font_base;
+    }
+    &.white{
+        color: $color_white;
+    }
+}

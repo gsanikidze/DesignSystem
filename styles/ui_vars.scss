@@ -1,16 +1,21 @@
-// -------------------------------------------------> [COLORS] VVV
-$color_primary: #006eff;
-$color_secondary: #42cd95;
-$color_red: #f46363;
-$color_yellow: #fed570;
-$color_green: #33db87;
-$color_black: #161616;
-$color_dark: #232323;
-$color_gray: #ddecff;
+// -------------------------------------------------> [COLORS]
+$color_primary: #782EFF;
+$color_secondary: #38FFDA;
+$color_red: #FF2D63;
+$color_yellow: #F5DD29;
+$color_green: #47FF49;
+$color_80_gray: #2E3E4F;
+$color_70_gray: #515E6D;
+$color_60_gray: #687480;
+$color_50_gray: #969EA7;
+$color_40_gray: #C5C9CE;
+$color_30_gray: #DCDFE1;
+$color_20_gray: #E8EAEC;
+$color_10_gray: #F3F4F5;
 $color_white: white;
-// -------------------------------------------------< [COLORS] XXX
+// -------------------------------------------------< [COLORS]
 
-// -------------------------------------------------> [MEASUREMENT UNITS] VVV
+// -------------------------------------------------> [MEASUREMENT UNITS]
 $unit_px_tiny: 8px;
 $unit_px_small: 16px;
 $unit_px_base: 24px;
@@ -24,24 +29,25 @@ $unit_pr_base: 24%;
 $unit_pr_large: 48%;
 $unit_pr_x_large: 64%;
 $unit_pr_full: 100%;
-// -------------------------------------------------< [MEASUREMENT UNITS] XXX
+// -------------------------------------------------< [MEASUREMENT UNITS]
 
-// -------------------------------------------------> [TYPOGRAPHY] VVV
-$font_primary: Open Sans, sans-serif;
-$font_secondary: "Times New Roman", Times, serif;
+// -------------------------------------------------> [TYPOGRAPHY]
+$font_primary: Avenir, Open Sans, sans-serif;
+$font_secondary: Georgia, "Times New Roman", Times, serif;
 
 $font_tiny: 12px;
 $font_small: 16px;
 $font_base: 24px;
 $font_large: 32px;
 $font_x_large: 40px;
-$font_xx_large: 48px;
-// -------------------------------------------------< [TYPOGRAPHY] XXX
 
-// -------------------------------------------------> [RADIUSES] VVV
-$radius_primary: 8px;
-$radius_secondary: 16px;
-// -------------------------------------------------< [RADIUSES] XXX
+$font_line_height: 1.5;
+// -------------------------------------------------< [TYPOGRAPHY]
+
+// -------------------------------------------------> [RADIUSES]
+$radius_primary: 100px;
+$radius_secondary: 8px;
+// -------------------------------------------------< [RADIUSES]
 
 
 // TODO: Needed Remove
