@@ -6,7 +6,7 @@ import './sidebar.scss'
 const Sidebar = ({ title, pages }) => {
     return (
         <section id="sidebar">
-            <div className="title"><a href="/">{title}</a></div>
+            <header><a href="/">{title}</a></header>
             <nav>
                 <ul>
                     {

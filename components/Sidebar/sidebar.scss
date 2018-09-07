@@ -1,23 +1,29 @@
 @import 'STYLES/ui_vars.scss';
+@import 'STYLES/mixins.scss';
 
 #sidebar{
+    @include shadow($inset: true);
+    @include flex($flex-direction: column, $justify-content: flex-start);
     position: fixed;
     width: $unit_pr_base;
     height: $unit_pr_full;
     top: 0;
-    background-color: $color_10_gray;
+    background-color: $color_white;
     color: $color_80_gray;
-    a{
-        color: $color_80_gray;
-        text-decoration: none;
-    }
-    .title{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+    header{
+        @include flex();
+        @include gradient();
+        @include shadow($color: $color_primary, $horizontal: 0, $opacity: 0.4, $blur: $unit_px_base);
         height: $unit_px_large;
-        background-color: $color_primary;
-        @include font_label;
+        margin-bottom: $unit_px_small;
+        width: $unit_pr_x_large;
+        border-radius: 0 0 $radius_secondary $radius_secondary;
+        a{
+            color: $color_white;
+            text-transform: uppercase;
+            font-weight: $font_weight_tiny;
+            font-size: $font_size_small;
+        }
     }
     nav{
         font-weight: 200;

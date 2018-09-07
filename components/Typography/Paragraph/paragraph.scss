@@ -1,17 +1,17 @@
 @import 'STYLES/ui_vars.scss';
 
 .paragraph{
-    font-family: $font_primary;
-    font-size: $font_small;
+    font-family: $font_family_primary;
+    font-size: $font_size_small;
     font-weight: regular;
     color: $color_70_gray;
     line-height: $font_line_height;
 
     &.large{
-        font-size: $font_base;   
+        font-size: $font_size_base;   
     }
     &.tiny{
-        font-size: $font_tiny;
+        font-size: $font_size_tiny;
     }
     &.white{
         color: $color_30_gray;

@@ -14,7 +14,7 @@ $color_20_gray: #E8EAEC;
 $color_10_gray: #F3F4F5;
 $color_white: white;
 // -------------------------------------------------< [COLORS]
-
+//TODO: Variables tiny 8, small 16...
 // -------------------------------------------------> [MEASUREMENT UNITS]
 $unit_px_tiny: 8px;
 $unit_px_small: 16px;
@@ -32,28 +32,24 @@ $unit_pr_full: 100%;
 // -------------------------------------------------< [MEASUREMENT UNITS]
 
 // -------------------------------------------------> [TYPOGRAPHY]
-$font_primary: Avenir, Open Sans, sans-serif;
-$font_secondary: Georgia, "Times New Roman", Times, serif;
+$font_family_primary: Avenir, Open Sans, sans-serif;
+$font_family_secondary: Georgia, "Times New Roman", Times, serif;
 
-$font_tiny: 12px;
-$font_small: 16px;
-$font_base: 24px;
-$font_large: 32px;
-$font_x_large: 40px;
+$font_size_tiny: 12px;
+$font_size_small: 16px;
+$font_size_base: 24px;
+$font_size_large: 32px;
+$font_size_x_large: 40px;
+
+$font_weight_tiny: 100;
+$font_weight_base: 500;
+$font_weight_large: 900;
 
 $font_line_height: 1.5;
 // -------------------------------------------------< [TYPOGRAPHY]
 
 // -------------------------------------------------> [RADIUSES]
+// TODO: Add More Radiuses
 $radius_primary: 100px;
 $radius_secondary: 8px;
 // -------------------------------------------------< [RADIUSES]
-
-
-// TODO: Needed Remove
-@mixin font_label {
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: $unit_px_small;
-    color: $color_white;
-}
