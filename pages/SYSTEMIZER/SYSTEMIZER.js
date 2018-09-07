@@ -3,7 +3,7 @@ import React, { Component } from 'react'
 //components
 import ContentContainer from 'COMPONENTS/ContentContainer'
 import Sidebar from 'COMPONENTS/Sidebar'
-import { Title, Paragraph } from 'COMPONENTS/Typography'
+import { Title, Paragraph, titleNote } from 'COMPONENTS/Typography'
 
 // other
 import navItems from 'DB/navItems'
@@ -19,7 +19,7 @@ export default class DefaultLayout extends Component {
             <div id="SYSTEMIZER">
                 <Sidebar title='Systemizer' pages={navItems} />
                 <ContentContainer>
-                    {console.log(Title)}
+                    {console.log(titleNote)}
                     <Title>Title Component</Title>
                     <Paragraph>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Enim ullam temporibus asperiores doloremque fugiat provident nam labore, repellat libero nisi quo fugit beatae tenetur corporis eveniet, est, nemo quas omnis.</Paragraph>
                 </ContentContainer>
