@@ -7,12 +7,14 @@ export default ({
     children,
     id,
     className,
-    type,
-    onDarkBackground
+    size,
+    onDarkBackground,
+    uppercase,
+    bold
 }) => {
     return (
         <div
-            className={`paragraph ${className || ''} ${type || ''} ${onDarkBackground ? 'white' : ''}`}
+            className={`paragraph ${className || ''} ${size || ''} ${onDarkBackground ? 'white' : ''}${uppercase ? 'uppercase' : ''} ${bold ? 'bold' : ''}`}
             id={id}
         >
             {children}

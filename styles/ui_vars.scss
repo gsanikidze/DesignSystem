@@ -16,6 +16,7 @@ $color_white: white;
 // -------------------------------------------------< [COLORS]
 
 // -------------------------------------------------> [MEASUREMENT]
+$unit_tiniest: 4;
 $unit_tiny: 8;
 $unit_small: 16;
 $unit_base: 24;
@@ -23,6 +24,7 @@ $unit_large: 48;
 $unit_x_large: 64;
 $unit_xx_large: 120;
 
+$sizing_px_tiniest: $unit_tiniest + px;
 $sizing_px_tiny: $unit_tiny + px;
 $sizing_px_small: $unit_small + px;
 $sizing_px_base: $unit_base + px;
@@ -30,6 +32,7 @@ $sizing_px_large: $unit_large + px;
 $sizing_px_x_large: $unit_x_large + px;
 $sizing_px_xx_large: $unit_xx_large +  px;
 
+$sizing_pr_tiniest: $unit_tiniest + %;
 $sizing_pr_tiny: $unit_tiny + %;
 $sizing_pr_small: $unit_small + %;
 $sizing_pr_base: $unit_base + %;
@@ -48,18 +51,19 @@ $font_size_base: $unit_base + px;
 $font_size_large: $unit_large + px;
 $font_size_x_large: $unit_x_large + px;
 
-$font_weight_tiny: 100;
+$font_weight_thin: 100;
 $font_weight_base: 500;
-$font_weight_large: 900;
+$font_weight_bold: 900;
 
 $font_line_height: 1.6;
 // -------------------------------------------------< [TYPOGRAPHY]
 
 // -------------------------------------------------> [RADIUSES]
-$radius_10: $unit_tiny + px;
-$radius_20: $unit_small + px;
-$radius_30: $unit_base + px;
-$radius_40: $unit_large + px;
-$radius_50: $unit_x_large + px;
-$radius_60: $unit_xx_large + px;
+$radius_10: $unit_tiniest + px;
+$radius_20: $unit_tiny + px;
+$radius_30: $unit_small + px;
+$radius_40: $unit_base + px;
+$radius_50: $unit_large + px;
+$radius_60: $unit_x_large + px;
+$radius_70: $unit_xx_large + px;
 // -------------------------------------------------< [RADIUSES]

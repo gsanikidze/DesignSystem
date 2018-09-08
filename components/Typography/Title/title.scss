@@ -16,4 +16,7 @@
     &.white{
         color: $color_white;
     }
+    &.uppercase{
+        text-transform: uppercase;
+    }
 }

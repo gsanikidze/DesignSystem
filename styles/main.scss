@@ -11,3 +11,13 @@ h1, h2, h3, h4, h5, h6{
     color: $color_white;
     font-weight: bold;
 }
+
+code{
+    padding: $sizing_px_tiniest $sizing_px_tiny;
+    margin: $sizing_px_tiniest;
+    background-color: $color_10_gray;
+    border-radius: $radius_10;
+    border: 1px solid $color_30_gray;
+    color: $color_primary;
+    font-family: $font_family_primary;
+}
