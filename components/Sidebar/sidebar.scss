@@ -5,15 +5,15 @@
     @include shadow($inset: true);
     @include flex($flex-direction: column, $justify-content: flex-start);
     position: fixed;
-    width: $unit_pr_base;
-    height: $unit_pr_full;
+    width: $sizing_pr_base;
+    height: $sizing_pr_full;
     top: 0;
     background-color: $color_white;
     header{
         @include flex();
-        height: $unit_px_x_large;
-        margin-bottom: $unit_px_small;
-        width: $unit_pr_x_large;
+        height: $sizing_px_x_large;
+        margin-bottom: $sizing_px_small;
+        width: $sizing_pr_x_large;
         border-bottom: 1px solid $color_40_gray;
         a{
             color: $color_80_gray;
@@ -27,17 +27,17 @@
         }
     }
     #sidebar_navigation{
-        width: $unit_pr_x_large; 
+        width: $sizing_pr_x_large; 
         ul{
             li{
-                margin-bottom: $unit_px_small;
+                margin-bottom: $sizing_px_small;
                 a{
                     color: $color_70_gray;
                     display: inline-block;
                     width: 100%;
                     height: 100%;
                     border-bottom: 2px solid $color_white;
-                    padding-bottom: $unit_px_tiny;
+                    padding-bottom: $sizing_px_tiny;
                     &:hover{
                         color: $color_primary;
                         border-bottom: 2px solid $color_primary;

@@ -3,10 +3,10 @@
 // -------------------------------------------------> [SHADOW]
 @mixin shadow(
     $inset: false,
-    $horizontal: -$unit_px_tiny,
+    $horizontal: -$sizing_px_tiny,
     $vertical: 0,
-    $blur: $unit_px_large,
-    $spread: -$unit_px_tiny,
+    $blur: $sizing_px_large,
+    $spread: -$sizing_px_tiny,
     $opacity: 0.4,
     $color: $color_80_gray
     ){
