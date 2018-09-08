@@ -10,12 +10,14 @@ export default ({
     size,
     onDarkBackground,
     uppercase,
-    bold
+    bold,
+    style
 }) => {
     return (
         <div
             className={`paragraph ${className || ''} ${size || ''} ${onDarkBackground ? 'white' : ''}${uppercase ? 'uppercase' : ''} ${bold ? 'bold' : ''}`}
             id={id}
+            style={style}
         >
             {children}
         </div>

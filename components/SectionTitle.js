@@ -7,6 +7,6 @@ import { Paragraph } from 'COMPONENTS/Typography'
 export default ({ children }) => (
     <div>
         <Paragraph bold size="small">{children}</Paragraph>
-        <Line />
+        <Line style={{ height: '8px' }} />
     </div>
 )

@@ -5,5 +5,6 @@ import './line.scss'
 
 export default ({
     className,
-    id
-}) => <div className={`line ${className || ''}`} id={id} />
+    id,
+    style
+}) => <div className={`line ${className || ''}`} id={id} style={style} />

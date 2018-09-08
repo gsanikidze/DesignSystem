@@ -8,6 +8,9 @@ import PageSwitcher from './PageSwitcher'
 // other
 import navItems from 'DB/navItems'
 
+// styles
+import './systemizer.scss'
+
 export default class DefaultLayout extends Component {
     static async getInitialProps({ query }) {
         return {
@@ -16,7 +19,7 @@ export default class DefaultLayout extends Component {
     }
     render() {
         return (
-            <div id="SYSTEMIZER">
+            <div id="systemizer">
                 <Sidebar title='Systemizer' navigationItems={navItems} />
                 <ContentContainer>
                     {

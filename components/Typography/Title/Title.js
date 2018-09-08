@@ -9,12 +9,14 @@ export default ({
     className,
     size,
     onDarkBackground,
-    uppercase
+    uppercase,
+    style
 }) => {
     return (
         <div
             className={`title ${className || ''} ${size || ''} ${onDarkBackground ? 'white' : ''} ${uppercase ? 'uppercase' : ''}`}
             id={id}
+            style={style}
         >
             {children}
         </div>
