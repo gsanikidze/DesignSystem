@@ -1,19 +1,16 @@
 import React from 'react'
 
+// components
+import SidebarNavigation from './SidebarNavigation'
+
 // styles
 import './sidebar.scss'
 
-const Sidebar = ({ title, pages }) => {
+const Sidebar = ({ title, navigationItems }) => {
     return (
         <section id="sidebar">
             <header><a href="/">{title}</a></header>
-            <nav>
-                <ul>
-                    {
-                        pages.map(({ name, url }, index) => <li key={index + name}><a>{name}</a></li>)
-                    }
-                </ul>
-            </nav>
+            <SidebarNavigation navigationItems={navigationItems} />
         </section>
     )
 }

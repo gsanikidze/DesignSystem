@@ -1,7 +1,7 @@
 export default [
-    { name: 'Typography', url: '/typography' },
-    { name: 'Spacing', url: '/spacing' },
-    { name: 'Colors', url: '/colors' },
-    { name: 'Buttons', url: '/buttons' },
-    { name: 'Forms', url: '/forms' },
+    { title: 'Typography', href: '/systemizer/typography' },
+    { title: 'Spacing', href: '/systemizer/spacing' },
+    { title: 'Colors', href: '/systemizer/colors' },
+    { title: 'Buttons', href: '/systemizer/buttons' },
+    { title: 'Forms', href: '/systemizer/forms' },
 ]

@@ -9,29 +9,39 @@
     height: $unit_pr_full;
     top: 0;
     background-color: $color_white;
-    color: $color_80_gray;
     header{
         @include flex();
-        @include gradient();
-        @include shadow($color: $color_primary, $horizontal: 0, $opacity: 0.4, $blur: $unit_px_base);
-        height: $unit_px_large;
+        height: $unit_px_x_large;
         margin-bottom: $unit_px_small;
         width: $unit_pr_x_large;
-        border-radius: 0 0 $radius_secondary $radius_secondary;
+        border-bottom: 1px solid $color_40_gray;
         a{
-            color: $color_white;
+            color: $color_80_gray;
             text-transform: uppercase;
-            font-weight: $font_weight_tiny;
+            font-weight: $font_weight_base;
             font-size: $font_size_small;
+            font-family: $font_family_secondary;
+            &:hover{
+                color: $color_primary;
+            }
         }
     }
-    nav{
-        font-weight: 200;
+    #sidebar_navigation{
+        width: $unit_pr_x_large; 
         ul{
             li{
-                padding: $unit_px_small;
-                &:hover{
-                    background-color: $color_80_gray;
+                margin-bottom: $unit_px_small;
+                a{
+                    color: $color_70_gray;
+                    display: inline-block;
+                    width: 100%;
+                    height: 100%;
+                    border-bottom: 2px solid $color_white;
+                    padding-bottom: $unit_px_tiny;
+                    &:hover{
+                        color: $color_primary;
+                        border-bottom: 2px solid $color_primary;
+                    }
                 }
             }
         }
