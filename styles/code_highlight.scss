@@ -1,0 +1,78 @@
+@import './ui_vars.scss';
+
+.hljs {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  color: $color_80_gray;
+  background: $color_white;
+}
+
+.hljs-comment,
+.hljs-quote {
+  color: $color_50_gray;
+  font-style: italic;
+}
+
+.hljs-doctag,
+.hljs-keyword,
+.hljs-formula {
+  color: $color_primary;
+}
+
+.hljs-section,
+.hljs-name,
+.hljs-selector-tag,
+.hljs-deletion,
+.hljs-subst {
+  color: $color_red;
+}
+
+.hljs-literal {
+  color: $color_primary;
+}
+
+.hljs-string,
+.hljs-regexp,
+.hljs-addition,
+.hljs-attribute,
+.hljs-meta-string {
+  color: $color_red;
+}
+
+.hljs-built_in,
+.hljs-class .hljs-title {
+  color: $color_primary;
+}
+
+.hljs-attr,
+.hljs-variable,
+.hljs-template-variable,
+.hljs-type,
+.hljs-selector-class,
+.hljs-selector-attr,
+.hljs-selector-pseudo,
+.hljs-number {
+  color: $color_primary;
+}
+
+.hljs-symbol,
+.hljs-bullet,
+.hljs-link,
+.hljs-meta,
+.hljs-selector-id,
+.hljs-title {
+  color: $color_primary;
+}
+
+.hljs-emphasis {
+  font-style: italic;
+}
+
+.hljs-strong {
+  font-weight: $font_weight_bold;
+}
+
+.hljs-link {
+  text-decoration: underline;
+}

@@ -10,6 +10,7 @@ import navItems from 'DB/navItems'
 
 // styles
 import './systemizer.scss'
+import 'STYLES/code_highlight.scss'
 
 export default class DefaultLayout extends Component {
     static async getInitialProps({ query }) {
