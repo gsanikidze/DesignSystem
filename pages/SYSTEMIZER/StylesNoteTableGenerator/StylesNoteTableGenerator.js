@@ -5,7 +5,7 @@ import { Title, Paragraph } from 'COMPONENTS/Typography'
 import Line from 'COMPONENTS/Line'
 
 // styles
-import './noteTableGenerator.scss'
+import './stylesNoteTableGenerator.scss'
 
 export default ({ noteObj }) => {
     return (
@@ -15,9 +15,9 @@ export default ({ noteObj }) => {
                 {noteObj.description ? <Paragraph><Line />{noteObj.description}</Paragraph> : null}
             </header>
             <section>
-                <Paragraph bold uppercase>Props</Paragraph>
+                <Paragraph bold uppercase>File Sections</Paragraph>
                 {
-                    noteObj.props.length <= 0 ? <Paragraph>This Component Don`t Receives Props</Paragraph> : noteObj.props.map((item, index) => {
+                    noteObj.sections.length <= 0 ? null : noteObj.sections.map((item, index) => {
                         let prop = Object.keys(item)[0]
                         let desk = item[prop]
                         return (

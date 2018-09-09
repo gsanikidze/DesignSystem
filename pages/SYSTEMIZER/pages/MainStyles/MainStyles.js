@@ -5,10 +5,10 @@ import { Title, Paragraph } from 'COMPONENTS/Typography'
 import SectionTitle from 'COMPONENTS/SectionTitle'
 import Line from 'COMPONENTS/Line'
 import CodeHighlight from 'COMPONENTS/CodeHighlight'
-import NoteTableGenerator from '../../NoteTableGenerator'
+import StylesNoteTableGenerator from '../../StylesNoteTableGenerator'
 
 // notes
-import { titleNote, paragraphNote } from 'COMPONENTS/Typography'
+import stylesNote from 'STYLES/stylesNote'
 
 // styles
 import './mainStyles.scss'
@@ -21,7 +21,7 @@ export default () => {
     <div id="main_styles" className="content_layout">
 
       <section className="one_component">
-        <SectionTitle>Colors</SectionTitle>
+        <SectionTitle>Main Styles: Colors</SectionTitle>
         <div className="content">
 
           <div className="samples">
@@ -35,19 +35,17 @@ export default () => {
           </div>
           <div className="description">
             <CodeHighlight title="Code Sample">
-              {'import { Title } from "COMPONENTS/Typography";'}
+              {'@import "STYLES/ui_vars.scss";'}
               <br /><br />
-              {'<Title size="tiny">Tiny Title</Title>'}
+              {'body {'}
               <br />
-              {'<Title uppercase size="tiny">Uppercase Tiny Title</Title>'}
+              {'    background-color: $color_10_gray;'}
               <br />
-              {'<Title>Base Title</Title>'}
+              {'    color: $color_70_gray;'}
               <br />
-              {'<Title style={{ color: "#ff0088" }}>Base Title With Style Object</Title>'}
-              <br />
-              {'<Title size="large">Large Title</Title>'}
+              {'}'}
             </CodeHighlight>
-            <NoteTableGenerator noteObj={titleNote} />
+            <StylesNoteTableGenerator noteObj={stylesNote.ui_vars} />
           </div>
         </div>
       </section>
