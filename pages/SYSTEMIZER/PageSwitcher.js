@@ -2,6 +2,7 @@ import React from 'react'
 
 // pages
 import {
+    MainStyles,
     Typography
 } from './pages'
 
@@ -10,7 +11,7 @@ export default ({ component }) => {
         case 'typography':
             return <Typography />
         default:
-            return <div>Systemizer</div>
+            return <MainStyles />
     }
 
 

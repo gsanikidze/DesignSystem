@@ -1,0 +1,75 @@
+@import 'STYLES/ui_vars.scss';
+@import 'STYLES/mixins.scss';
+
+#main_styles{
+
+
+    .samples{
+        width: 48%;
+        display: flex;
+        flex-wrap: wrap;
+        height: $sizing_pr_full;
+        justify-content: space-evenly;
+        .color{
+            @include shadow();
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: $sizing_px_xx_large;
+            height: $sizing_px_xx_large;
+            border: $sizing_px_tiny solid $color_white;
+            border-radius: $radius_80;
+            padding: $sizing_px_tiny;
+            margin: $sizing_px_tiny;
+            .label{
+                border-radius: $radius_30;
+                background-color: $color_white;
+                border: 1px solid $color_20_gray;
+                color: $color_70_gray;
+                padding: $sizing_px_tiniest $sizing_px_tiny;
+            }
+            &.primary{
+                background-color: $color_primary;
+            }
+            &.secondary{
+                background-color: $color_secondary;
+            }
+            &.red{
+                background-color: $color_red;
+            }
+            &.green{
+                background-color: $color_green;
+            }
+            &.yellow{
+                background-color: $color_yellow;
+            }
+            &._80_gray{
+                background-color: $color_80_gray;
+            }
+            &._70_gray{
+                background-color: $color_70_gray;
+            }
+            &._60_gray{
+                background-color: $color_60_gray;
+            }
+            &._50_gray{
+                background-color: $color_50_gray;
+            }
+            &._40_gray{
+                background-color: $color_40_gray;
+            }
+            &._30_gray{
+                background-color: $color_30_gray;
+            }
+            &._20_gray{
+                background-color: $color_20_gray;
+            }
+            &._10_gray{
+                background-color: $color_10_gray;
+            }
+            &.white{
+                background-color: $color_white;
+            }
+        }
+    }
+}

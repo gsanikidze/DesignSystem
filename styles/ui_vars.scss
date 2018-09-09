@@ -45,7 +45,7 @@ $sizing_pr_full: 100%;
 $font_family_primary: Avenir, Open Sans, sans-serif;
 $font_family_secondary: Georgia, "Times New Roman", Times, serif;
 
-$font_size_tiny: $unit_tiny + px;
+$font_size_tiny: 14px;
 $font_size_small: $unit_small + px;
 $font_size_base: $unit_base + px;
 $font_size_large: $unit_large + px;
@@ -66,4 +66,5 @@ $radius_40: $unit_base + px;
 $radius_50: $unit_large + px;
 $radius_60: $unit_x_large + px;
 $radius_70: $unit_xx_large + px;
+$radius_80: 1000px;
 // -------------------------------------------------< [RADIUSES]

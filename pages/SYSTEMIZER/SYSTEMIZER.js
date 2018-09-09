@@ -23,12 +23,7 @@ export default class DefaultLayout extends Component {
             <div id="systemizer">
                 <Sidebar title='Systemizer' navigationItems={navItems} />
                 <ContentContainer>
-                    {
-                        this.props.query.component ?
-                            <PageSwitcher component={this.props.query.component} /> :
-                            <div>There Is No Component</div>
-                    }
-
+                    <PageSwitcher component={this.props.query.component} />
                 </ContentContainer>
             </div>
         )
