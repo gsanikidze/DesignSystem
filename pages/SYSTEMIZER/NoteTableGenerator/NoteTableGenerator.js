@@ -2,7 +2,6 @@ import React from 'react'
 
 // components
 import { Title, Paragraph } from 'COMPONENTS/Typography'
-import Line from 'COMPONENTS/Line'
 
 // styles
 import './noteTableGenerator.scss'
@@ -23,7 +22,7 @@ export default ({ noteObj }) => {
                         return (
                             <div key={prop + index} className="row">
                                 <code>{prop}</code>
-                                <div>{desk}</div>
+                                <Paragraph>{desk}</Paragraph>
                             </div>
                         )
                     })

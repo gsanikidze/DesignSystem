@@ -1,0 +1,32 @@
+@import 'STYLES/ui_vars.scss';
+
+.component_note{
+    header{
+        padding: $sizing_px_tiny;
+        background-color: $color_10_gray;
+        border-radius: $radius_20 $radius_20 0 0;
+        border: 1px solid $color_30_gray;
+    }
+    section{
+        padding: $sizing_px_tiny;
+        border: 1px solid $color_30_gray;
+        border-radius: 0 0 $radius_20 $radius_20;
+        .paragraph.bold{
+            border-bottom: $sizing_px_tiniest solid $color_30_gray;
+            padding: $sizing_px_tiny 0;
+        }
+        .row{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: $sizing_px_tiny 0;
+            border-bottom: 1px solid $color_30_gray;
+            code{
+                margin-right: $sizing_px_large;
+            }
+        }
+        .row:last-child{
+            border-bottom: none;
+        }  
+    }
+}
