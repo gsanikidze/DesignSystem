@@ -1,0 +1,16 @@
+@import "STYLES/ui_vars.scss";
+@import "STYLES/mixins.scss";
+
+.button{
+    padding: $sizing_px_tiny $sizing_px_small;
+    border: none;
+    background-color: $color_primary;
+    color: $color_white;
+    border-radius: $radius_80;
+    font-size: $font_size_small;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    &:hover{
+        @include shadow();
+    }
+}
