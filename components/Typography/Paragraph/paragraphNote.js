@@ -1,5 +1,5 @@
 export default {
-    title: "Main Paragraph Component",
+    title: "Paragraph Component",
     description: 'Simple Component, Receives Children And Then Returns It.',
     props: [
         { 'children': 'Text Between Paragraph Tags' },

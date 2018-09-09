@@ -1,5 +1,5 @@
 export default {
-    title: "Main Title Component",
+    title: "Title Component",
     description: 'Simple Title Component, Receives Children And Then Returns It.',
     props: [
         { 'children': 'Text Between Title Tags' },
