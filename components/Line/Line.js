@@ -4,7 +4,7 @@ import React from 'react'
 import './line.scss'
 
 export default ({
-    className,
-    id,
-    style
-}) => <div className={`line ${className || ''}`} id={id} style={style} />
+    className = '',
+    id = '',
+    style = {},
+}) => <div className={`line ${className}`} id={id} style={style} />

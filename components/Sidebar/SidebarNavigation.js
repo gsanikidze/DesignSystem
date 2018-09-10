@@ -1,9 +1,9 @@
 import React from 'react'
 import { Link } from 'ROUTES'
 
-export default ({ navigationItems, classname }) => {
+export default ({ navigationItems, className = '' }) => {
     return (
-        <nav id="sidebar_navigation" className={classname}>
+        <nav id="sidebar_navigation" className={className}>
             <ul>
                 {
                     navigationItems.map(({ title, href }, index) => (

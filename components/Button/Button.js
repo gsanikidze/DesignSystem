@@ -5,9 +5,9 @@ import './button.scss'
 
 export default ({
     children,
-    className,
-    id,
-    onClick
+    className = '',
+    id = '',
+    onClick = ''
 }) => {
     return (
         <button
