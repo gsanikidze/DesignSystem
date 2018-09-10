@@ -1,14 +1,20 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 // styles
-import './content_container.scss'
+import './content_container.scss';
 
-export default ({ children }) => {
-    return (
-        <div id="content_container">
-            <div className="container">
-                {children}
-            </div>
-        </div>
-    )
-}
+const ContentContainer = ({ children }) => (
+  <div id="content_container">
+    <div className="container">
+      {children}
+    </div>
+  </div>
+);
+
+// props
+ContentContainer.propTypes = {
+  children: PropTypes.element.isRequired,
+};
+
+export default ContentContainer;

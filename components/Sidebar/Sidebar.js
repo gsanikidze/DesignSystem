@@ -1,18 +1,25 @@
-import React from 'react'
+import React from 'react';
+import PropTypes from 'prop-types';
 
 // components
-import SidebarNavigation from './SidebarNavigation'
+import SidebarNavigation from './SidebarNavigation';
 
 // styles
-import './sidebar.scss'
+import './sidebar.scss';
 
-const Sidebar = ({ title, navigationItems }) => {
-    return (
-        <section id="sidebar">
-            <header><a href="/">{title}</a></header>
-            <SidebarNavigation navigationItems={navigationItems} />
-        </section>
-    )
-}
+// component
+const Sidebar = ({ title, navigationItems }) => (
+  <section id="sidebar">
+    <header><a href="/">{title}</a></header>
+    <SidebarNavigation navigationItems={navigationItems} />
+  </section>
+);
 
-export default Sidebar
+// props
+Sidebar.propTypes = {
+  title: PropTypes.string.isRequired,
+  navigationItems: PropTypes.array.isRequired,
+};
+
+
+export default Sidebar;

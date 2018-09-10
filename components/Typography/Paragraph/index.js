@@ -1,2 +1,2 @@
-export { default } from './Paragraph'
-export { default as paragraphNote } from './paragraphNote'
+export { default } from './Paragraph';
+export { default as paragraphNote } from './paragraphNote';

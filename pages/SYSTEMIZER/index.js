@@ -1,1 +1,1 @@
-export { default } from './SYSTEMIZER'
+export { default } from './SYSTEMIZER';

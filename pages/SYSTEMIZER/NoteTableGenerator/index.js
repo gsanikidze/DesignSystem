@@ -1,1 +1,1 @@
-export { default } from './NoteTableGenerator'
+export { default } from './NoteTableGenerator';

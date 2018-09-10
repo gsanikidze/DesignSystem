@@ -1,1 +1,1 @@
-export { default } from './StylesNoteTableGenerator'
+export { default } from './StylesNoteTableGenerator';

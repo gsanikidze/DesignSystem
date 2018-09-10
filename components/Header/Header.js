@@ -1,13 +1,11 @@
-import React from 'react'
+import React from 'react';
 
-import './header.scss'
+import './header.scss';
 
-export default () => {
-    return (
-        <div id="header">
-            <div>
-                Design System
-            </div>
-        </div>
-    )
-}
+export default () => (
+  <div id="header">
+    <div>
+        Design System
+    </div>
+  </div>
+);
