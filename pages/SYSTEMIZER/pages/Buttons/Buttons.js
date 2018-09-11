@@ -6,5 +6,14 @@ import Button from 'COMPONENTS/Button';
 export default () => (
   <div>
     <Button className="button" id="main_btn" onClick={() => { console.log('click'); }}>Button</Button>
+    <Button outlined>Button</Button>
+    <Button color="danger" flat>Button</Button>
+    <Button color="danger" outlined>Button</Button>
+    <Button color="warning" outlined>Button</Button>
+    <Button color="warning">Button</Button>
+    <Button color="success" outlined>Button</Button>
+    <Button color="success">Button</Button>
+    <Button color="secondary" outlined>Button</Button>
+    <Button color="secondary">Button</Button>
   </div>
 );

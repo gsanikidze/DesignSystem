@@ -5,6 +5,7 @@
     padding: $sizing_px_tiny $sizing_px_small;
     border: none;
     background-color: $color_primary;
+    border: 1px solid $color_primary;
     color: $color_white;
     border-radius: $radius_40;
     font-size: $font_size_small;
@@ -12,5 +13,40 @@
     transition: all 0.3s ease-in-out;
     &:hover{
         @include shadow();
+    }
+    &.secondary{
+        background-color: $color_50_gray;
+        border: 1px solid $color_50_gray;
+    }
+    &.warning{
+        background-color: $color_yellow;
+        border: 1px solid $color_yellow;
+    }
+    &.danger{
+        background-color: $color_red;
+        border: 1px solid $color_red;
+    }
+    &.success{
+        background-color: $color_green;
+        border: 1px solid $color_green;
+    }
+    &.outlined{
+        background: none;
+        color: $color_primary;
+    }
+    &.secondary.outlined{
+        color: $color_50_gray;
+    }
+    &.warning.outlined{
+        color: $color_yellow;
+    }
+    &.danger.outlined{
+        color: $color_red;
+    }
+    &.success.outlined{
+        color: $color_green;
+    }
+    &.flat{
+        border: none;
     }
 }
