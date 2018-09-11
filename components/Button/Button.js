@@ -18,7 +18,7 @@ const Button = ({
   outlined,
   flat,
   name,
-  type
+  type,
 }) => (
   <button className={`button ${className} ${color} ${outlined ? 'outlined' : ''} ${flat ? 'flat outlined' : ''}`} id={id} onClick={onClick} name={name} type={type}>
     {children}

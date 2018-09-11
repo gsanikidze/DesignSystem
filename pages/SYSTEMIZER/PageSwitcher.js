@@ -5,6 +5,7 @@ import {
   MainStyles,
   Typography,
   Buttons,
+  Samples,
 } from './pages';
 
 export default ({ component }) => {
@@ -13,6 +14,8 @@ export default ({ component }) => {
       return <Typography />;
     case 'buttons':
       return <Buttons />;
+    case 'samples':
+      return <Samples />;
     default:
       return <MainStyles />;
   }

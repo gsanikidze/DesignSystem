@@ -1,0 +1,33 @@
+@import "STYLES/ui_vars.scss";
+@import "STYLES/mixins.scss";
+
+.alert{
+    padding: $sizing_px_tiny $sizing_px_small;
+    border: none;
+    background-color: lighten($color_primary, 35%);
+    border: 2px solid $color_primary;
+    color: $color_primary;
+    border-radius: $radius_40;
+    font-size: $font_size_small;
+    font-weight: $font_weight_bold;
+    &.secondary{
+        background-color: lighten($color_50_gray, 35%);
+        color: $color_50_gray;
+        border: 2px solid $color_50_gray;
+    }
+    &.warning{
+        background-color: lighten($color_yellow, 35%);
+        color: $color_yellow;
+        border: 2px solid $color_yellow;
+    }
+    &.danger{
+        background-color: lighten($color_red, 35%);
+        color: $color_red;
+        border: 2px solid $color_red;
+    }
+    &.success{
+        background-color: lighten($color_green, 35%);
+        color: $color_green;
+        border: 2px solid $color_green;
+    }
+}
