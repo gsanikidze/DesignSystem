@@ -1,6 +1,6 @@
-const routes = require('next-routes')
+const routes = require('next-routes');
 
 module.exports = routes()
-    .add('index', '/')
-    .add('SYSTEMIZER', '/systemizer', 'SYSTEMIZER')
-    .add('SYSTEMIZERWithComponent', '/systemizer/:component', 'SYSTEMIZER')
+  .add('index', '/')
+  .add('SYSTEMIZER', '/systemizer', 'SYSTEMIZER')
+  .add('SYSTEMIZERWithComponent', '/systemizer/:component', 'SYSTEMIZER');

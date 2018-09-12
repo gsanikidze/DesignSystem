@@ -11,6 +11,12 @@
     font-size: $font_size_small;
     cursor: pointer;
     transition: all 0.3s ease-in-out;
+    &.sharp{
+        border-radius: 0;
+    }
+    &.rounded{
+        border-radius: $radius_20;
+    }
     &:hover{
         @include shadow();
     }

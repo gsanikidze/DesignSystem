@@ -4,6 +4,7 @@ $color_secondary: #38FFDA;
 $color_red: #FF2D63;
 $color_yellow: #F5DD29;
 $color_green: #2af59a;
+$color_dark: rgb(24, 24, 24);
 $color_80_gray: #2E3E4F;
 $color_70_gray: #515E6D;
 $color_60_gray: #687480;
@@ -22,7 +23,8 @@ $unit_small: 16;
 $unit_base: 24;
 $unit_large: 48;
 $unit_x_large: 64;
-$unit_xx_large: 120;
+$unit_xx_large: 88;
+$unit_xxx_large: 120;
 
 $sizing_px_tiniest: $unit_tiniest + px;
 $sizing_px_tiny: $unit_tiny + px;
@@ -38,6 +40,7 @@ $sizing_pr_small: $unit_small + %;
 $sizing_pr_base: $unit_base + %;
 $sizing_pr_large: $unit_large + %;
 $sizing_pr_x_large: $unit_x_large + %;
+$sizing_pr_xx_large: $unit_xx_large + %;
 $sizing_pr_full: 100%;
 // -------------------------------------------------< [MEASUREMENT]
 

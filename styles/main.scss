@@ -1,6 +1,10 @@
 @import 'STYLES/ui_vars.scss';
 
-body{
+* {
+    transition: all 0.3s ease-in-out;
+}
+
+body {
     background-color: $color_white;
     color: $color_80_gray;
     font-family: $font_family_primary;
@@ -21,3 +25,13 @@ code{
     color: $color_70_gray;
     font-family: $font_family_primary;
 }
+
+// -------------------------------------------------> [MAIN CLASSES]
+.container_fluid{
+    width: $sizing_pr_full;
+}
+.container{
+    width: $sizing_pr_xx_large;
+    margin: 0 auto;
+}
+// -------------------------------------------------< [MAIN CLASSES]

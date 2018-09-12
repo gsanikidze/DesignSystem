@@ -1,19 +1,30 @@
 @import 'STYLES/ui_vars.scss';
+@import 'STYLES/mixins.scss';
 
-#header{
-    position: fixed;
-    width: $sizing_pr_full - $sizing_pr_small;
-    height: $sizing_px_large;
+.main_header{
+    height: $sizing_px_x_large;
+    background-color: $color_white;
+    color: $color_50_gray;
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    left: $sizing_pr_small;
-    top: 0;
-    background-color: $color_primary;
-    font-family: $font_family_primary;
-    color: $color_white;
-}
-
-.toggled{
-    background-color: $color_secondary !important;
+    &.dark{
+        background-color: $color_dark;
+        color: $color_20_gray;
+    }
+    &.shadow{
+        @include shadow();
+    }
+    &.fixed{
+        position: fixed;
+        width: $sizing_pr_full;
+    }
+    .content{
+        display: flex;
+    }
+    .container, .container_fluid{ 
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
 }

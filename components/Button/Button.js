@@ -1,6 +1,7 @@
 /**
  * Button Component
- * Type Props: primary(default), secondary, danger and warning
+ * color: primary(default), secondary, danger and warning
+ * shape: full rounded(default), sharp and rounded
  */
 import React from 'react';
 import PropTypes from 'prop-types';
@@ -19,8 +20,9 @@ const Button = ({
   flat,
   name,
   type,
+  shape,
 }) => (
-  <button className={`button ${className} ${color} ${outlined ? 'outlined' : ''} ${flat ? 'flat outlined' : ''}`} id={id} onClick={onClick} name={name} type={type}>
+  <button className={`button ${className} ${color} ${outlined ? 'outlined' : ''} ${flat ? 'flat outlined' : ''} ${shape}`} id={id} onClick={onClick} name={name} type={type}>
     {children}
   </button>
 );
@@ -33,6 +35,7 @@ Button.propTypes = {
   id: PropTypes.string,
   type: PropTypes.string,
   name: PropTypes.string,
+  shape: PropTypes.string,
   outlined: PropTypes.bool,
   flat: PropTypes.bool,
   onClick: PropTypes.func,
@@ -44,6 +47,7 @@ Button.defaultProps = {
   color: '',
   name: '',
   type: '',
+  shape: '',
   outlined: false,
   flat: false,
   onClick: () => console.log('Button Clicked!'),

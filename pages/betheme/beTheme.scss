@@ -1,0 +1,11 @@
+@import 'STYLES/ui_vars.scss';
+
+#beTheme{
+    .main_header{
+        border-bottom: 1px solid $color_50_gray;
+        .brand{
+            margin-left: $sizing_pr_tiniest;
+            cursor: pointer;
+        }
+    }
+}
