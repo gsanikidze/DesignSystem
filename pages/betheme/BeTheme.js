@@ -4,6 +4,7 @@ import React from 'react';
 import Header from 'COMPONENTS/Header';
 import { HorizontalNav } from 'COMPONENTS/Navigation';
 import Button from 'COMPONENTS/Button';
+import HeroSection from 'COMPONENTS/HeroSection';
 
 // styles
 import './beTheme.scss';
@@ -17,5 +18,6 @@ export default () => (
       <HorizontalNav navItems={navItems} />
       <Button shape="sharp">Buy Now</Button>
     </Header>
+    <HeroSection />
   </div>
 );
