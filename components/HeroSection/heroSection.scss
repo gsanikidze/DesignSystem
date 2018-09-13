@@ -1,0 +1,18 @@
+@import 'STYLES/ui_vars';
+@import 'STYLES/mixins';
+
+.hero_section{
+    width: $sizing_pr_full;
+    height: $sizing_vh_full;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .container{
+        width: 100%;
+        height: 100%;
+        &.gradient{
+            @include shadowGradient();
+        }
+    }
+    
+}

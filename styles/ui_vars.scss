@@ -42,6 +42,15 @@ $sizing_pr_large: $unit_large + %;
 $sizing_pr_x_large: $unit_x_large + %;
 $sizing_pr_xx_large: $unit_xx_large + %;
 $sizing_pr_full: 100%;
+
+$sizing_vh_tiniest: $unit_tiniest + vh;
+$sizing_vh_tiny: $unit_tiny + vh;
+$sizing_vh_small: $unit_small + vh;
+$sizing_vh_base: $unit_base + vh;
+$sizing_vh_large: $unit_large + vh;
+$sizing_vh_x_large: $unit_x_large + vh;
+$sizing_vh_xx_large: $unit_xx_large + vh;
+$sizing_vh_full: 100vh;
 // -------------------------------------------------< [MEASUREMENT]
 
 // -------------------------------------------------> [TYPOGRAPHY]

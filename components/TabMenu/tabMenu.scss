@@ -1,0 +1,18 @@
+@import 'STYLES/ui_vars';
+
+.tab_menu{
+    display: flex;
+    a{
+        display: block;
+        padding: $sizing_px_small;
+        color: $color_50_gray;
+        box-sizing: border-box;
+        border-bottom: 2px solid transparent;
+        transition: all 0.5s ease-in-out;
+
+        &:hover{
+            border-bottom: 2px solid $color_primary;
+            color: $color_primary;
+        }
+    }
+}

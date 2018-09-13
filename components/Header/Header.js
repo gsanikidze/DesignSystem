@@ -34,6 +34,7 @@ Header.propTypes = {
   children: PropTypes.oneOfType([
     PropTypes.element,
     PropTypes.string,
+    PropTypes.object,
   ]).isRequired,
   brand: PropTypes.oneOfType([
     PropTypes.element,
