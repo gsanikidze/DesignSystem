@@ -1,6 +1,6 @@
 # SYSTEMIZER
 
-## Getting Started
+## !UNDER DEVELOPMENT!
 ```
 git clone https://github.com/gsanikidze/SYSTEMIZER.git
 ```

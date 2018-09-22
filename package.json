@@ -6,30 +6,10 @@
     "url": "https://github.com/gsanikidze"
   },
   "dependencies": {
-    "@zeit/next-sass": "^0.2.0",
-    "express": "^4.16.3",
-    "next": "^6.1.2",
-    "next-routes": "^1.4.2",
-    "node-sass": "^4.9.3",
     "prop-types": "^15.6.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-highlight": "^0.12.0",
-    "react-redux": "^5.0.7",
-    "redux": "^4.0.0",
-    "redux-devtools-extension": "^2.13.2",
-    "redux-thunk": "^2.1.0"
-  },
-  "scripts": {
-    "dev": "node server.js",
-    "build": "next build",
-    "start": "next start"
+    "react": "^16.4.2"
   },
   "devDependencies": {
-    "eslint": "5.3.0",
-    "eslint-config-airbnb": "^17.1.0",
-    "eslint-plugin-import": "2.14.0",
-    "eslint-plugin-jsx-a11y": "6.1.1",
-    "eslint-plugin-react": "7.11.0"
+    "eslint": "5.3.0"
   }
 }
