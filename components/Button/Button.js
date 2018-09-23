@@ -7,7 +7,7 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // styles
-import './button.scss';
+import buttonCss from './button.css';
 
 // component
 const Button = ({
@@ -15,14 +15,18 @@ const Button = ({
   className,
   id,
   onClick,
-  color,
-  outlined,
-  flat,
   name,
   type,
-  shape,
+  style,
 }) => (
-  <button className={`button ${className} ${color} ${outlined ? 'outlined' : ''} ${flat ? 'flat outlined' : ''} ${shape}`} id={id} onClick={onClick} name={name} type={type}>
+  <button
+    className={className}
+    id={id}
+    onClick={onClick}
+    name={name}
+    type={type}
+    style={buttonCss(style)}
+  >
     {children}
   </button>
 );
@@ -31,25 +35,19 @@ const Button = ({
 Button.propTypes = {
   children: PropTypes.string.isRequired,
   className: PropTypes.string,
-  color: PropTypes.string,
+  style: PropTypes.object,
   id: PropTypes.string,
   type: PropTypes.string,
   name: PropTypes.string,
-  shape: PropTypes.string,
-  outlined: PropTypes.bool,
-  flat: PropTypes.bool,
   onClick: PropTypes.func,
 };
 
 Button.defaultProps = {
   className: '',
   id: '',
-  color: '',
   name: '',
   type: '',
-  shape: '',
-  outlined: false,
-  flat: false,
+  style: {},
   onClick: () => console.log('Button Clicked!'),
 };
 
