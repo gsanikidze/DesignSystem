@@ -1,4 +1,5 @@
-@import 'STYLES/ui_vars.scss';
+@import '../../styles/ui_vars.scss';
+@import '../../styles/brand_ui_vars.scss';
 
 .title{
     font-family: $font_family_primary;
@@ -8,7 +9,7 @@
     color: $color_80_gray;
 
     &.large{
-        font-size: $font_size_x_large;   
+        font-size: $font_size_x_large;
     }
     &.tiny{
         font-size: $font_size_base;

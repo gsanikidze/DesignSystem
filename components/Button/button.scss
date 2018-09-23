@@ -1,5 +1,5 @@
-@import "STYLES/ui_vars.scss";
-@import "STYLES/mixins.scss";
+@import "../../styles/brand_ui_vars";
+@import "../../styles/ui_vars.scss";
 
 .button{
     padding: $sizing_px_tiny $sizing_px_small;
@@ -16,9 +16,6 @@
     }
     &.rounded{
         border-radius: $radius_20;
-    }
-    &:hover{
-        @include shadow();
     }
     &.secondary{
         background-color: $color_50_gray;
